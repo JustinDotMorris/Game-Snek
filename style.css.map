@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"style.css"}
+{"version":3,"sources":["_text.scss","style.css","_gameBoard.scss"],"names":[],"mappings":"AAAA;EACI,4DAAA;ACCJ;;ACFA;EACI,YAAA;EACA,aAAA;EACA,uBAAA;EACA,sBAAA;EACA,YAAA;ADKJ","file":"style.css"}

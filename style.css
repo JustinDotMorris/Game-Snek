@@ -1,1 +1,11 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#gameBoard {
+  width: 20rem;
+  height: 20rem;
+  background-color: black;
+  border: solid 5px grey;
+  margin: auto;
+}/*# sourceMappingURL=style.css.map */
