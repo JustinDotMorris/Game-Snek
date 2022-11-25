@@ -13,20 +13,16 @@
 };
 
 #gameButtons__topArrows{
-    // border: solid 2px red;
-    
     
 };
 
 #gameButtons__midArrows{
     display: flex;
     justify-content: space-between;
-    // border: solid 2px red;
     
 };
 
 #gameButtons__botArrows{
-    // border: solid 2px red;
 
 };
 
@@ -37,4 +33,6 @@
     color: white;
     border: solid 2px white;
     border-radius: 50%;
+    font-size: 2rem;
+    text-align: center;
 };
