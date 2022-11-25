@@ -1,5 +1,34 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+#gameButtons {
+  margin: auto;
+  margin-top: 1rem;
+  border: solid 5px grey;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 12.5rem;
+  height: auto;
+  padding: 0.5rem;
+  background-color: black;
+}
+
+#gameButtons__midArrows {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gameButtons__allArrows {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: black;
+  color: white;
+  border: solid 2px white;
+  border-radius: 50%;
 }
 
 #gameBoard {
@@ -8,4 +37,12 @@ body {
   background-color: black;
   border: solid 5px grey;
   margin: auto;
+  border-radius: 1rem 1rem 1rem 1rem;
+  margin-top: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */

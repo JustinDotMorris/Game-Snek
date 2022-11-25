@@ -1,5 +1,12 @@
 @use "./text";
+@use "./buttons";
 @use "./gameBoard";
 @use "./_apple";
 @use "./_snakeBody";
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 

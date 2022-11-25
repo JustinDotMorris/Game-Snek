@@ -1,0 +1,40 @@
+#gameButtons{
+    margin: auto;
+    margin-top: 1rem;
+    border: solid 5px grey;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 12.5rem;
+    height: auto;
+    padding: 0.5rem;
+    background-color: black;
+};
+
+#gameButtons__topArrows{
+    // border: solid 2px red;
+    
+    
+};
+
+#gameButtons__midArrows{
+    display: flex;
+    justify-content: space-between;
+    // border: solid 2px red;
+    
+};
+
+#gameButtons__botArrows{
+    // border: solid 2px red;
+
+};
+
+.gameButtons__allArrows{
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: black;
+    color: white;
+    border: solid 2px white;
+    border-radius: 50%;
+};
