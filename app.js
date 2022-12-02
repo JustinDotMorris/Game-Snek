@@ -82,7 +82,6 @@ const collisionEvent = () => {
     //add score
 };
 
-
 //Event Listeners
 document.addEventListener("keyup", snakeControls)
 upButton.addEventListener("click",snakeControls);
@@ -90,72 +89,3 @@ leftButton.addEventListener("click",snakeControls);
 rightButton.addEventListener("click",snakeControls);
 downButton.addEventListener("click",snakeControls);
 // startButton.addEventListener("click",startGame);
-
-// -------------------------------------------------------
-
-//get existing coordinates
-
-//each second +1/-1 to whichever axis is being moved along 
-
-//Functions - Game Loop
-// const loop = () => {
-//     requestAnimationFrame(loop);
-// }
-
-//Functions - Direction
-
-// const upmovement = () => {
-//     //grid position -10
-    
-// };
-
-// const leftMovement = () => {
-//     //grid position -1
-
-// };
-
-// const rightMovement = () => {
-//     //grid position +1
-
-// };
-
-// const downMovement = () => {
-//     //grid position +10
-
-// };
-
-//Functions - Movement
-// const movementFunction = setInterval(() => {
-
-// },1000);
-
-//Make an array for 100 divs
-// const gridPositionsID = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25];
-// console.log(gridPositionsID);
-
-//what will happen
-//create a grid of 100 divs with each position a unique id
-
-// gridPositionsID.forEach(element => {
-//     gameBoard.innerHTML = (`
-//     <div id="snake"></div>
-    
-//     `);
-// });
-
-    // const movementFunction = setInterval(() => {
-
-// },1000);
-
-    // currentSnake.forEach(index => gameBoxes[index].classList.add('snake'));
-    // interval = setInterval(moveOutcomes, intervalTime)
-
-
-// //Event listeners
-// upButton.addEventListener("click",movementFunction);
-// leftButton.addEventListener("click",movementFunction);
-// rightButton.addEventListener("click",movementFunction);
-// downButton.addEventListener("click",movementFunction);
-
-// requestAnimationFrame(loop);
-
