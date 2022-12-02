@@ -12,18 +12,9 @@
     background-color: black;
 };
 
-#gameButtons__topArrows{
-    
-};
-
 #gameButtons__midArrows{
     display: flex;
     justify-content: space-between;
-    
-};
-
-#gameButtons__botArrows{
-
 };
 
 .gameButtons__allArrows{
@@ -40,5 +31,4 @@
 
 .gameButtons__allArrows:hover{
     background-color: grey;
-
 }
