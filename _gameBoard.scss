@@ -1,4 +1,4 @@
-#gameBoard{
+.gameBoard{
     width: 20rem;
     height: 20rem;
     background-color: black;
@@ -7,4 +7,12 @@
     border-radius: 1rem 1rem 1rem 1rem;
     margin-top: 1rem;
     padding: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows:  repeat(5, 1fr);
 };
+
+.gameBoard__div{
+    width: auto;
+    height: auto;
+}

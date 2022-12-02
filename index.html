@@ -10,23 +10,49 @@
   <body>
     <div>
       <h1>Snake</h1>
-      <h2>Score:0</h2>
+      <h2 id="score">Score:0</h2>
+      <button id="startButton">Start</button>
     </div>
-    <div id="gameBoard">
-      <div id="snake"></div>
-      <div id="apple"></div>
+    <div class="gameBoard">
+      <!-- 5x5 grid so 25 divs -->
+      <div class="gameBoard__div snake"></div>
+      <div class="gameBoard__div"></div>
+      <div class="gameBoard__div"></div>
+      <div class="gameBoard__div"></div>
+      <div class="gameBoard__div"></div>
+      <div class="gameBoard__div"></div>
+      <div class="gameBoard__div"></div>
+      <div class="gameBoard__div"></div>
+      <div class="gameBoard__div"></div>
+      <div class="gameBoard__div"></div>
+      <div class="gameBoard__div"></div>
+      <div class="gameBoard__div"></div>
+      <div class="gameBoard__div"></div>
+      <div class="gameBoard__div"></div>
+      <div class="gameBoard__div"></div>
+      <div class="gameBoard__div"></div>
+      <div class="gameBoard__div"></div>
+      <div class="gameBoard__div"></div>
+      <div class="gameBoard__div"></div>
+      <div class="gameBoard__div"></div>
+      <div class="gameBoard__div"></div>
+      <div class="gameBoard__div"></div>
+      <div class="gameBoard__div"></div>
+      <div class="gameBoard__div"></div>
+      <div class="gameBoard__div"></div>
     </div>
     <div id="gameButtons">
       <div id="gameButtons__topArrows">
-        <button class="gameButtons__allArrows">↑</button>
+        <button class="gameButtons__allArrows" id="upButton">⇑</button>
       </div>
       <div id="gameButtons__midArrows">
-        <button class="gameButtons__allArrows">←</button>
-        <button class="gameButtons__allArrows">→</button>
+        <button class="gameButtons__allArrows" id="leftButton">⇐</button>
+        <button class="gameButtons__allArrows" id="rightButton">⇒</button>
       </div>
       <div id="gameButtons__botArrows">
-        <button class="gameButtons__allArrows">↓</button>
+        <button class="gameButtons__allArrows" id="downButton">⇓</button>
       </div>
     </div>
+    <script src="./app.js"></script>
   </body>
 </html>
