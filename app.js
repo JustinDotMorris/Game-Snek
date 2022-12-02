@@ -64,8 +64,8 @@ const updateApplePosition = () => {
     console.log(gameBoxes[appleIndexPosition]);
     //Spawn fruit
     gameBoxes[appleIndexPosition].classList.add("apple");
+    console.log("old apple number is"+ appleIndexPosition);
     //remove fruit, spawn somewhere else
-    
 }
 
 const collisionEvent = () => {
@@ -78,14 +78,16 @@ const collisionEvent = () => {
         <h2>Score: ${scoreNum}</h2>
         `
         //make apple dissapear
+        // gameBoxes.forEach(element => {
+        //     element.classList.remove("apple");
+        //     console.log("new apple number is"+ appleIndexPosition);
+        // });
         gameBoxes[appleIndexPosition].classList.remove("apple")
         //move apple
-        appleIndexPosition = appleIndexPosition.Math.floor(Math.random()* 26);
+        appleIndexPosition = appleIndexPosition.Math.floor(Math.random() * 26);
 
-        
-
-        
         //make apple re-appear
+        gameBoxes[appleIndexPosition].classList.add("apple");
     }
     //game borders
     //add score
