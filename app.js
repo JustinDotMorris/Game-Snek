@@ -11,18 +11,7 @@ const score = document.querySelector("#score");
 const gameBoardWidth = 5; //How many squares make up the width of the grid
 let snakeIndexPosition = 0; //The square that the snake is in
 let scoreNum = 0; //The current score
-let appleIndexPosition = Math.floor(Math.random() * 26);//The position that the apple is in
-
-
-// let intervalTime = 1000;
-// let interval = 0;
-// let currentSnake = 1;
-
-//Function to start the game
-// const startGame = () => {
-//     setInterval(1000);
-// };
-
+let appleIndexPosition = Math.floor(Math.random() * 24);//Randomises the position that the apple is in
 
 //Function to control snake movement
 const snakeControls = (e) => {
@@ -75,16 +64,16 @@ const collisionEvent = () => {
         scoreNum = scoreNum + 1;
         //Adjust score display
         score.innerHTML = `
-        <h2>Score: ${scoreNum}</h2>
+        <h3>Score: ${scoreNum}</h3>
         `
         //make apple dissapear
-        // gameBoxes.forEach(element => {
-        //     element.classList.remove("apple");
-        //     console.log("new apple number is"+ appleIndexPosition);
-        // });
+        gameBoxes.forEach(element => {
+            element.classList.remove("apple");
+            console.log("new apple number is"+ appleIndexPosition);
+        });
         gameBoxes[appleIndexPosition].classList.remove("apple")
-        //move apple
-        appleIndexPosition = appleIndexPosition.Math.floor(Math.random() * 26);
+        //move apple to new position
+        appleIndexPosition = Math.floor(Math.random() * 24);
 
         //make apple re-appear
         gameBoxes[appleIndexPosition].classList.add("apple");
